@@ -38,8 +38,8 @@ module.exports = DuraspaceXml =
     $text = $text.replace(/\&\#xD\;/g, ' ')
     $text = $text.replace(/\&\#x2009\;/g, ' ')
     $text = $text.replace(RegExp('  ', 'g'), ' ')
-    $text = $text.replace(RegExp(' \\<', 'g'), '<')
-    $text = $text.replace(/\> /g, '>')
+    $text = $text.replace(RegExp(' \<', 'g'), '<')
+    $text = $text.replace(RegExp(' \>', 'g'), '<')
     editor.setText $text
 
   deactivate: ->
