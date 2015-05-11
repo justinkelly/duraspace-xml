@@ -1,6 +1,15 @@
-# duraspace-xml package
+# DuraSpace XML package for the Atom.io editor
 
 Format XML to work with DuraSpace/Fedora digital repository
 
+This is a very simple Atom.io package to remformat XML so that
+it can be imported and displayed correctly in DuraSpace/Fedora
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+It performs the following conversions
+
+* `20uu9999` reformated to todays date in YYYYMMDD format
+* ``&#xA9;` changed to `&amp;#0169;1
+* `&#x201C;`,`&#x201D;`,`&#x2019;`,`&#x2018;` changed to `'`
+* ``&#xD;` changed to a space ` `
+* Double spaces removed
+* Opening and closing tags >< cleaned up if incrrect spacing is present
