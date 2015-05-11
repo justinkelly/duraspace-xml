@@ -10,6 +10,7 @@ It performs the following conversions
 * `20uu9999` reformated to todays date in YYYYMMDD format
 * `&#xA9;` changed to `&amp;#0169;1
 * `&#x201C;`,`&#x201D;`,`&#x2019;`,`&#x2018;` changed to `'`
-* `&#xD;` changed to a space ` `
+* `&#x2013;`,`&#x2014;` changed to `-`
+* `&#xD;`,`&#x2009` changed to a space ` `
 * Double spaces removed
 * Opening and closing tags >< cleaned up if incrrect spacing is present
