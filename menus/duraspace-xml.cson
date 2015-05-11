@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'DuraSpace XML - Convert'
+      'command': 'duraspace-xml:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'DuraSpace XML'
+      'submenu': [
+        {
+          'label': 'Convert'
+          'command': 'duraspace-xml:toggle'
+        }
+      ]
+    ]
+  }
+]
