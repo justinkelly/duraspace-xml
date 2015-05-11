@@ -1,7 +1,7 @@
 {
   "name": "duraspace-xml",
   "main": "./lib/duraspace-xml",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Format XML to work with the DuraSpace/Fedora digital repository",
   "activationCommands": {
     "atom-workspace": "duraspace-xml:toggle"
@@ -11,6 +11,5 @@
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
