@@ -29,7 +29,7 @@ module.exports = DuraspaceXml =
 
     d = new Date
     $date = d.yyyymmdd()
-    editor = atom.workspace.activePaneItem
+    editor = atom.workspace.getActivePaneItem()
     $text = editor.getText()
     $text = $text.replace(/20uu9999/g, $date)
     $text = $text.replace(/\&\#xA9\;/g, '&amp;#0169;')
