@@ -2,7 +2,7 @@
 
 Reformats EndNote XML to work with DuraSpace/Fedora digital repository
 
-This is a very simple Atom.io package to remformat XML from ENdNote so that
+This is a very simple Atom.io package to remformat XML from EndNote so that
 it can be imported and displayed correctly in DuraSpace/Fedora
 
 It performs the following conversions
