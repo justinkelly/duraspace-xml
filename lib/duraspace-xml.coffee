@@ -34,7 +34,7 @@ module.exports = DuraspaceXml =
     $text = $text.replace(/20uu9999/g, $date)
     $text = $text.replace(/\&\#xA9\;/g, '&amp;#0169;')
     $text = $text.replace(/\&\#x201C\;|\&\#x201D\;|\&\#x2019\;|\&\#x2018\;/gi, '\'')
-    $text = $text.replace(/\&\#x2013\;|\&\#x2014\;/gi, '-')
+    $text = $text.replace(/\&\#x2013\;|\&\#x2014\;|\&\#x2010\;/gi, '-')
     $text = $text.replace(/\&\#xD\;/g, ' ')
     $text = $text.replace(/\&\#x2009\;/g, ' ')
     $text = $text.replace(RegExp('  ', 'g'), ' ')
